@@ -27,6 +27,8 @@ def displayProcess():
 
 
 if __name__ == '__main__':
+    import matplotlib.pyplot as plt
+    import tinker as tk 
     toBeSorted = [10,3,2,4,5,9,6,7,1]
     sa = sortAlgs(toBeSorted)
 
