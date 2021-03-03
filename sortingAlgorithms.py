@@ -45,7 +45,9 @@ class sortAlgs():
                     displayList(self.sort)
         print("The number of swap is : " + str(count))
         return sort
-
+"""
+Here is a basic version of HEAP sort
+"""
     def heapSort(self):
         heap = []
         
